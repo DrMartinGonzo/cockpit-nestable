@@ -1,0 +1,31 @@
+{
+  "name": "field-nestable",
+  "version": "0.1.0",
+  "description": "Nestable field for Cockpit CMS",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrMartinGonzo/field-nestable.git"
+  },
+  "keywords": [
+    "Cockpit",
+    "CMS",
+    "field",
+    "nestable"
+  ],
+  "author": "Martin Portevin",
+  "license": "MIT",
+  "homepage": "https://github.com/DrMartinGonzo/field-nestable#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "riot-cli": "^3.0.0",
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "riot-tag-loader": "^2.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
