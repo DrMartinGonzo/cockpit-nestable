@@ -40,6 +40,8 @@
   </div>
 
   <script>
+    import { _countItems } from '../utils.js';
+
     const tag = this;
 
     this.mode = 'edit';
@@ -183,16 +185,6 @@
         item.visibility = false;
         _collapseAllItems(item);
       });
-    }
-
-    function _countItems(items) {
-      let count = 0;
-      function r(item) {
-        count += 1;
-        if (item.children) item.children.forEach(r);
-      }
-      items.forEach(r);
-      return count;
     }
   </script>
 </field-nestable>
