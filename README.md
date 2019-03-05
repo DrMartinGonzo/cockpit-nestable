@@ -22,6 +22,7 @@ _Note: Directory must be named **field-nestable** for Cockpit to register addon.
 ⚠️ Doesn't support field chooser like repeater field.
 
 Rest of config is the same as with repeater field. But you can set two different properties for displaying info: `display` and `display_alt`.
+
 ![Preview](card_display.png)
 
 ### Sample config
