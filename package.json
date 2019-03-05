@@ -1,5 +1,5 @@
 {
-  "name": "field-nestable",
+  "name": "cockpit-nestable",
   "version": "0.1.0",
   "description": "Nestable field for Cockpit CMS",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DrMartinGonzo/field-nestable.git"
+    "url": "git+https://github.com/DrMartinGonzo/cockpit-nestable.git"
   },
   "keywords": [
     "Cockpit",
@@ -18,7 +18,7 @@
   ],
   "author": "Martin Portevin",
   "license": "MIT",
-  "homepage": "https://github.com/DrMartinGonzo/field-nestable#readme",
+  "homepage": "https://github.com/DrMartinGonzo/cockpit-nestable#readme",
   "dependencies": {},
   "devDependencies": {
     "riot-cli": "^3.0.0",
