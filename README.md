@@ -1,4 +1,4 @@
-# field-nestable
+# cockpit-nestable
 
 Nestable field type for [Cockpit CMS](https://github.com/agentejo/cockpit)
 
@@ -10,7 +10,7 @@ This is mostly the same as a repeater field, but each field can be nested.
 
 ```
 $ cd cockpit/modules/addons
-$ git clone git@github.com:DrMartinGonzo/field-nestable.git
+$ git clone git@github.com:DrMartinGonzo/cockpit-nestable.git
 ```
 
 _Note: Directory must be named **field-nestable** for Cockpit to register addon._
